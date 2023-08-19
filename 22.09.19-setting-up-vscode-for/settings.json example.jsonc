@@ -1,0 +1,32 @@
+{
+   "editor.tokenColorCustomizations": {
+      "textMateRules": [
+         {
+            "scope": [
+               "keyword.operator.logical.ahk2",
+               "entity.name.function.ahk2"
+            ],
+            "settings": {
+               "foreground": "#56B7C3",
+               "fontStyle": "" // "", bold, italic, strikethrough, underline
+            }
+         },
+         {
+            "scope": ["string.quoted.ahk2"],
+            "settings": {
+               "foreground": "#56B7C3",
+               "fontStyle": "italian + bald + L + ratio" // to reiterate that this is example code, don't just go ahead and use it, think for yourself what changes you want to make, and if you even want to make any in the first place
+            }
+         }
+      ]
+   },
+   "AutoHotkey2.CompleteFunctionParens": true,
+   "AutoHotkey2.SymbolFoldingFromOpenBrace": true,
+   "AutoHotkey2.AutoLibInclude": "User and Standard",
+   "AutoHotkey2.Diagnostics.ParamsCheck": true,
+   "AutoHotkey2.DisableV1Script": true,
+   "AutoHotkey2.FormatOptions": {
+      "indent_string": "   ",
+      "keep_array_indentation": true
+   }
+}
